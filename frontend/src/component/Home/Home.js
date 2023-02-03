@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import { CgMouse } from "react-icons/all";
+import { CgMouse } from "react-icons/cg";
 import "./Home.css";
 import ProductCard from "./ProductCard.js";
 import MetaData from "../layout/MetaData";
@@ -27,10 +27,10 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="ECOMMERCE" />
+          <MetaData title="Marketify" />
 
           <div className="banner">
-            <p>Welcome to Ecommerce</p>
+            <p>Welcome to Marketify</p>
             <h1>FIND AMAZING PRODUCTS BELOW</h1>
 
             <a href="#container">
@@ -40,9 +40,9 @@ const Home = () => {
             </a>
           </div>
 
-          <h2 className="homeHeading">Featured Products</h2>
+          <h2 className="homeHeading" id="container">Featured Products</h2>
 
-          <div className="container" id="container">
+          <div className="container" >
             {products &&
               products.map((product) => (
                 <ProductCard key={product._id} product={product} />

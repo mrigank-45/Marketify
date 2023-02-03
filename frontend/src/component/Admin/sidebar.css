@@ -9,8 +9,10 @@
   padding: 0;
 }
 .sidebar > a > img {
-  width: 100%;
+  width: 80%;
+  margin-top: 8vh;
   transition: all 0.5s;
+  margin-left: 2vw;
 }
 
 .sidebar > a > img:hover {
