@@ -1,27 +1,19 @@
-# Install Dependencies
+# DeDocs
 
-**For Backend** - `npm i`
+**Marketify** is an end to end full stack E-commerce website catered to both users and admins with full fledged authentication system and responsive frontend for multiple viewports.
 
-**For Frontend** - `cd frontend` ` npm i`
+![image](https://user-images.githubusercontent.com/75155230/182626625-ad6eef26-c26a-48bc-a672-f1af85a636ac.png)
 
-## Env Variables
+## Tech Stack
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
+#### Frontend
 
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
+- ReactJS  
+- Redux
+- Material UI
+
+#### Backend
+- NodeJS
+- ExpressJS
+- MongoDB
+- Stripe
